@@ -1,0 +1,17 @@
+//---------------------------------------------------------------
+// frAthena-R
+//---------------------------------------------------------------
+
+// Liste des GRF - Utile pour ajouter de nouvelles maps sur votre serveur
+//--------------------------------------------------------------
+// Pour ajouter un Grf :
+// grf: C:\direction\de\votre\Ragnarok\data.grf
+// Vous pouvez ajouter plusieurs fichiers de cette manière
+// grf: <direction de votre data>
+
+//------ Autres ---------------------------
+
+// Direction du data (sans le data\)
+// L'exemple suivant utilise C:\direction\de\votre\Ragnarok\data\
+// Donc votre data_dir: doit être de la manière suivante sans le data\
+// data_dir: C:\direction\de\votre\Ragnarok\

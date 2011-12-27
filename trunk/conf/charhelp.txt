@@ -1,0 +1,33 @@
+//---------------------------------------------------------------
+// frAthena-R
+//---------------------------------------------------------------
+// Traduit par NoH - Book of Ymir
+//---------------------------------------------------------------
+ 40:--- COMMANDES JOUEURS ---
+ 40:#statsall <nom du joueur> - Change toutes les stats d'un joueur et les met au maximum.
+ 40:#itemlist <nom du joueur> - Affiche tous les objets d'un joueur.
+ 40:#storagelist <nom du joueur> - Affiche tous les objets dans le Stock d'un joueur.
+ 40:#stats <nom du joueur> - Affiche les stats d'un joueur.
+ 60:#option <nom du joueur> <param1> <param2> <param3> - Identique à la commande @option mais sur une autre cible.
+ 50:#mountpeco <nom du joueur> - Donne/retire un Péco à un joueur (nécessite d'avoir la bonne classe, mais pas de maîtriser la compétence).
+ 50:#petrename <nom du joueur> - Permet au joueur de renommer son animal de compagnie.
+ 60:#save <nom du joueur> <zone> <x> <y> - Change le Point de Sauvegarde du joueur.
+ 60:#baselvl/#blvl <nom du joueur> <#> - Change le niveau de base d'un joueur.
+ 60:#joblvl/#jlvl <nom du joueur> <#> - Change le niveau de compétence d'un joueur.
+ 60:#job/#jobchange <nom du joueur> <job ID> - Change la profession d'un joueur.
+ 60:#zeny <nom du joueur> <nombre> - Donne/prend des zénys à un joueur.
+ 60:#cash <nom du joueur> <nombre> - Donne/prend des points de cash à un joueur.
+ 60:#points <nom du joueur> <nombre> - Donne/prend des points Kafra à un joueur.
+ 60:#stpoint <nom du joueur> <nombre> - Donne/prend des points de stat à un joueur.
+ 60:#skpoint <nom du joueur> <nombre> - Donne/prend des points de compétence à un joueur.
+ 60:#skreset <nom du joueur> - Remet à zéro les compétences d'un joueur.
+ 60:#streset <nom du joueur> - Remet à zéro les stats d'un joueur.
+ 60:#reset <nom du joueur> - Remet à zéro les stats ET les compétences d'un joueur.
+ 60:#questskill <nom du joueur> <#> - Donne à un joueur la compétence de quête indiquée.
+ 60:#lostskill <nom du joueur> <#> - Retire à un joueur la compétence de quête indiquée.
+ 60:#delitem <nom du joueur> <nom ou ID d'objet> <quantité> - Reprend les objets d'un personnage.
+ 50:#model <nom du joueur> <coupe> <couleur de cheveux> <couleur des vêtements> - Change l'apparence d'un joueur.
+ 60:#disguise <nom du joueur> <nom ou ID du monstre> - Déguise un joueur en un monstre.
+ 60:#undisguise <nom du joueur> - Retire le déguisement d'un joueur.
+ 60:#changesex <nom du joueur> - Change le sexe d'un joueur (et de tous les personnages du compte).
+ 60:#warp/#rura+ <nom du joueur> <zone> <x> <y> - Téléporte le joueur vers la zone indiquée.

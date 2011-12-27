@@ -1,0 +1,11 @@
+===================
+frAthena R Changelog
+===================
+
+2011/12/27 - Révision 2
+	* Suppression des dossiers Branches, Tags, Wiki, 
+	* Ajout du fichier Changelog-Trunk.txt
+	* Ajout des du dossier conf traduit
+
+2011/12/27 - Révision 1
+	* Création du projet frAthena-R

@@ -1,0 +1,98 @@
+//---------------------------------------------------------------
+// frAthena-R
+//---------------------------------------------------------------
+// Traduit par NoH - Book of Ymir
+//---------------------------------------------------------------
+  1:--- OBJETS ---
+  1:@storage - Ouvre le Stock.
+ 40:@itemreset - Retire tous vos objets.
+ 50:@gstorage - Ouvre votre Stock de Guilde
+ 60:@itemcheck - Vérifie quels objets vous pouvez utiliser.
+ 60:@idsearch <nom partiel> - Cherche tous les objets correspondants.
+ 60:@refine <position> <+/- niveau>
+ 60:@produce <nom ou ID> <élément> <# de qualité>
+ 60:	Élément: 0=Aucun 1=Eau 2=Terre 3=Feu 4=Vent
+ 60:	Vous pouvez ajouter jusqu'à 3 Morceaux d'Étoile et 1 élément.
+ 60:@repairall - Répare tous les objets de votre inventaire.
+ 60:@item <nom> - Crée l'objet en question.
+ 60:@item <nom ou ID> <quantité> - Vous donne l'objet en question.
+ 60:@item2 <nom ou ID> <quantité> <identification> <raffinage> <brisé ou non> <Carte 1> <Carte 2> <Carte 3> <Carre 4> - Crée l'objet en question.
+ 40: 
+ 40:--- COMMANDES PVP ---
+ 40:@pvpon - Autorise le PvP dans la zone.
+ 40:@pvpoff - Interdit le PvP dans la zone.
+ 40:@gvgon/@gpvpon - Autorise the GvG dans la zone.
+ 40:@gvgoff/@gpvpoff - Interdit le GvG dans la zone.
+ 60:@agitstart - Commence la Guerre de l'Empérium.
+ 60:@agitend - Met fin à la Guerre de l'Empérium.
+  1: 
+  1:--- COMMANDES DE GROUPE ---
+  1:@party <nom de l'équipe> - Crée une équipe.
+ 50:@guild <nom deguilde> - Crée une guilde.
+ 60:@guildlvup/@guildlvlup <# de niveaux> - Augmente le niveau de la guilde.
+ 60:@guildrecall <nom/id de guilde> - Téléporte tous les membres de la guilde vers vous.
+ 60:@partyrecall <nom/id d'équipe> - Téléporte tous l'équipe de la guilde vers vous.
+  1: 
+  1:--- ANIMAUX DE COMPAGNIE ---
+  1:@petrename - Autorise à renommer son Animal de Compagnie.
+ 10:@pettalk [Message] - Fait dire quelque chose à votre Animal de Compagnie.
+ 40:@petfriendly <#> - Change l'affinité de votre Animal de Compagnie (0-1000) 1000 = Max.
+ 40:@pethungry <#> - Change l'appétit de votre Animal de Compagnie (0-100) 100 = Max.
+ 60:@hatch - Fait éclore un oeuf d'Animal de Compagnie.
+ 60:@makeegg <id de l'animal> - Vous donne un oeuf de l'animal en question.
+ 20: 
+ 20:--- COMMANDES LIÉES AUX AUTRES JOUEURS ---
+ 20:@kick <nom du perso> - Déconnecte le personnage en question.
+ 40:@charkillable <nom du perso> - Rend un autre joueur tuable.
+ 60:@unjail/@discharge <nom du perso> - Libère un personnage.
+ 60:@kill <nom du perso> - Tue un personnage.
+ 60:@chardropall <nom du perso> - Fait tomber par terre toutes les possessions d'un personnage.
+ 60:@charstoreall <nom du perso> - Place tous les objets d'un personnage au Stock.
+ 60:/recall/@recall <nom du perso> - Téléporte un personnage vers vous.
+ 60:@revive <nom du perso> - Ressuscite un personnage.
+ 60:@charblock/@block <nom du perso> - Bloque un compte de façon permanente.
+ 60:@charunblock/@unblock <nom du perso> - Débloque un compte.
+ 60:@charban/@ban/@banish/@charbanish <durée> <nom> - Bannit de façon temporaire un compte.
+ 60:	Durée: ajustement (durée +/-) et type (y/a, m, d/j, h, mn, s)
+ 60:	Exemple: @ban +1m-2mn1s-6y Joueur-test
+ 60:@charunban/@unban/@unbanish/@charunbanish <nom> - Ré-autorise un compte.
+ 60:@jail <nom du perso> - Envoie un personnage en prison.
+ 60:@trade <nom du perso> - Ouvre une fenêtre d'échange avec un autre joueur.
+ 80:@recallall - Téléporte tous les joueurs vers vous.
+ 80:@doom - Tue tous les joueurs normaux sur le serveur.
+ 80:@doommap - Tue tous les joueurs normaux dans la zone.
+ 80:@raise - Ressuscite tous les joueurs du serveur.
+ 80:@raisemap - Ressuscite tous les joueurs dans la zone.
+ 80: 
+ 80:--- COMMANDES MÉTÉO ET DE ZONE ---
+ 80:@night - Utilise l'option @option 00 16 00 sur tous les joueurs.
+ 80:@day - Utilise l'option @option 00 00 00 sur tous les joueurs.
+ 80:@skillon - Permet l'utilisation des compétences dans la zone.
+ 80:@skilloff - Interdit l'utilisation des compétences dans la zone.
+// 99:@rain - Makes all maps to have the rain weather effect. // Ça ne marche plus depuis des années...
+ 99:@snow - Lance l'effet de neige dans la zone.
+ 99:@clouds - Crée des nuages dans la zone.
+ 99:@clouds2 - Crée des nuages alternatifs dans la zone.
+ 99:@fog - Crée du brouillard dans la zone.
+ 99:@fireworks - Lance des feux d'artifice dans la zone.
+ 99:@sakura - Fait tomber des pétales de fleurs dans la zone.
+ 99:@leaves - Fait tomber des feuilles dans la zone.
+ 80: 
+ 80:--- COMMANDES D'ADMIN ---
+ 80:@shownpc <nom du NPC> - Affiche un NPC.
+ 80:@hidenpc <nom du NPC> - Cache un NPC.
+ 80:@loadnpc <path to script> - Lis un script.
+ 80:@unloadnpc <nom du NPC> - Désactive un NPC.
+ 99:@adjgmlvl <niveau> <nom du perso> - Change temporairement le niveau GM d'un joueur.
+ 99:@adjcmdlvl <niveau> <commande> - Change temporairement le niveau GM d'une commande.
+ 99:@kickall - Déconnecte tous les joueurs du serveur.
+ 99:@mapexit - Déconnecte tous les joueurs et ferme le serveur.
+ 99:@reloaditemdb - Recharge la base de données des objets.
+ 99:@reloadmobdb - Recharge la base de données des monstres.
+ 99:@reloadskilldb - Recharge la base de données des compétences.
+ 99:@reloadscript - Recharge les scripts.
+ 99:@reloadgmdb - Recharge les niveaux GM.
+ 99: 
+ 99:@gat - Débug (Vous inspectez le gat autour)
+ 99:@packet - Débug (informations sur les packets)
+100:@nuke <nom du perso> - Tue un personnage de façon spectaculaire.
