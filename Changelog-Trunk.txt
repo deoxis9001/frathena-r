@@ -2,6 +2,9 @@
 frAthena R Changelog
 ===================
 
+2011/12/27 - Révision 3
+	* Update char_athena.conf & char_athena.conf
+
 2011/12/27 - Révision 2
 	* Suppression des dossiers Branches, Tags, Wiki, 
 	* Ajout du fichier Changelog-Trunk.txt
