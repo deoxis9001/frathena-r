@@ -1,0 +1,62 @@
+//---------------------------------------------------------------
+// frAthena-R
+//---------------------------------------------------------------
+// Guilde vs Guilde
+// Description :
+// gvg: Active le combat entre Guilde (Guilde vs Guilde)
+// gvg_castle: Guilde vs Guilde pour la War of Emperium
+// gvg_dungeon: Guilde vs Guilde dans les donjons de Guildes
+//---------------------------------------------------------------
+
+// Arènes Guilde vs Guilde
+guild_vs1	mapflag	gvg
+guild_vs2	mapflag	gvg
+guild_vs3	mapflag	gvg
+guild_vs4	mapflag	gvg
+guild_vs5	mapflag	gvg
+
+// Châteaux de Guildes
+aldeg_cas01	mapflag	gvg_castle
+aldeg_cas02	mapflag	gvg_castle
+aldeg_cas03	mapflag	gvg_castle
+aldeg_cas04	mapflag	gvg_castle
+aldeg_cas05	mapflag	gvg_castle
+gefg_cas01	mapflag	gvg_castle
+gefg_cas02	mapflag	gvg_castle
+gefg_cas03	mapflag	gvg_castle
+gefg_cas04	mapflag	gvg_castle
+gefg_cas05	mapflag	gvg_castle
+payg_cas01	mapflag	gvg_castle
+payg_cas02	mapflag	gvg_castle
+payg_cas03	mapflag	gvg_castle
+payg_cas04	mapflag	gvg_castle
+payg_cas05	mapflag	gvg_castle
+prtg_cas01	mapflag	gvg_castle
+prtg_cas02	mapflag	gvg_castle
+prtg_cas03	mapflag	gvg_castle
+prtg_cas04	mapflag	gvg_castle
+prtg_cas05	mapflag	gvg_castle
+schg_cas01	mapflag	gvg_castle
+schg_cas02	mapflag	gvg_castle
+schg_cas03	mapflag	gvg_castle
+schg_cas04	mapflag	gvg_castle
+schg_cas05	mapflag	gvg_castle
+arug_cas01	mapflag	gvg_castle
+arug_cas02	mapflag	gvg_castle
+arug_cas03	mapflag	gvg_castle
+arug_cas04	mapflag	gvg_castle
+arug_cas05	mapflag	gvg_castle
+
+// Châteaux de Guilde Novice
+nguild_alde	mapflag	gvg_castle
+nguild_gef	mapflag	gvg_castle
+nguild_pay	mapflag	gvg_castle
+nguild_prt	mapflag	gvg_castle
+
+// Donjons de Guildes
+gld_dun01	mapflag	gvg_dungeon
+gld_dun02	mapflag	gvg_dungeon
+gld_dun03	mapflag	gvg_dungeon
+gld_dun04	mapflag	gvg_dungeon
+arug_dun01	mapflag	gvg_dungeon
+schg_dun01	mapflag	gvg_dungeon

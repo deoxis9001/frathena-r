@@ -1,0 +1,25 @@
+//---------------------------------------------------------------
+// frAthena-R
+//---------------------------------------------------------------
+// No Skill
+// Description :
+// - noskill: Désactive l'utilisation de skills sur la map
+//---------------------------------------------------------------
+
+// Arène de Prontera
+prt_are_in	mapflag	noskill
+
+// The Sign Quest
+himinn	mapflag	noskill
+
+// Quiz Maps
+quiz_00	mapflag	noskill
+quiz_01	mapflag	noskill
+quiz_02	mapflag	noskill
+quiz_test	mapflag	noskill
+
+
+// Minijeux d'Hugel
+que_bingo	mapflag	noskill
+p_track01	mapflag	noskill
+p_track02	mapflag	noskill

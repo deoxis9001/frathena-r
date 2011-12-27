@@ -1,0 +1,43 @@
+//---------------------------------------------------------------
+// frAthena-R
+//---------------------------------------------------------------
+// Jail (Prison)
+// Description :
+// - pvpon: Active le PvP
+// - pvp_noparty: Ne peut pas attaquer un joueur qui est dans votre groupe
+// - nobranch: Les dead branch ne peuvent pas être cracker
+// - nomemo: Pas de points de sauvegarde pour le Warp Portal autorisé
+// - nowarp: Impossible d'utiliser le Warp Portal ou d'autres techniques de Warp
+// - nopenalty: Pas d'exp perdu quand le joueur meurt
+// - nosave: Pas de sauvegarde autorisé
+// - noteleport: La téléportation est interdite: Pas de fly/butterfly/skill teleport
+// - noreturn: La téléportation par des skills comme Emergency Call
+// ou d'items comme butterfly wings sont interdits
+//---------------------------------------------------------------
+
+// pvp
+sec_pri	mapflag	pvp
+
+// pvp_noparty
+sec_pri	mapflag	pvp_noparty
+
+// nobranch
+sec_pri	mapflag	nobranch
+
+// nomemo
+sec_pri	mapflag	nomemo
+
+// nowarp
+sec_pri	mapflag	nowarp
+
+// nopenalty
+sec_pri	mapflag	nopenalty
+
+// nosave
+sec_pri	mapflag	nosave	SavePoint
+
+// noteleport
+sec_pri	mapflag	noteleport
+
+// noreturn
+sec_pri	mapflag	noreturn

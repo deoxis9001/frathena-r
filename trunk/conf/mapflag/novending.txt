@@ -1,0 +1,10 @@
+//---------------------------------------------------------------
+// frAthena-R
+//---------------------------------------------------------------
+// No Vending
+// Description :
+// - novending: Désactive la vente sur la map (Merchants)
+//---------------------------------------------------------------
+
+// Aucunes maps interdit le vending (kRO, iRO)
+//prontera	mapflag	novending
