@@ -1,0 +1,144 @@
+//---------------------------------------------------------------
+// frAthena-R
+//---------------------------------------------------------------
+// No Return
+// Description :
+// - noreturn: La téléportation par des skills comme Emergency Call
+// ou d'items comme butterfly wings sont interdits
+//---------------------------------------------------------------
+
+// Quête hugel
+que_hugel	mapflag	noreturn
+
+// Châteaux de Guilde
+// Les Butterfly Wings sont autorisés dans les châteaux sur officiel (kRO, iRO)
+//aldeg_cas01	mapflag	noreturn
+//aldeg_cas02	mapflag	noreturn
+//aldeg_cas03	mapflag	noreturn
+//aldeg_cas04	mapflag	noreturn
+//aldeg_cas05	mapflag	noreturn
+//gefg_cas01	mapflag	noreturn
+//gefg_cas02	mapflag	noreturn
+//gefg_cas03	mapflag	noreturn
+//gefg_cas04	mapflag	noreturn
+//gefg_cas05	mapflag	noreturn
+//payg_cas01	mapflag	noreturn
+//payg_cas02	mapflag	noreturn
+//payg_cas03	mapflag	noreturn
+//payg_cas04	mapflag	noreturn
+//payg_cas05	mapflag	noreturn
+//prtg_cas01	mapflag	noreturn
+//prtg_cas02	mapflag	noreturn
+//prtg_cas03	mapflag	noreturn
+//prtg_cas04	mapflag	noreturn
+//prtg_cas05	mapflag	noreturn
+//nguild_alde	mapflag	noreturn
+//nguild_gef	mapflag	noreturn
+//nguild_pay	mapflag	noreturn
+//nguild_prt	mapflag	noreturn
+
+// Arènes GvG
+//guild_vs1	mapflag	noreturn
+//guild_vs2	mapflag	noreturn
+//guild_vs3	mapflag	noreturn
+//guild_vs4	mapflag	noreturn
+//guild_vs5	mapflag	noreturn
+
+// Arènes
+//arena_room	mapflag	noreturn
+//sec_in01	mapflag	noreturn
+//sec_in02	mapflag	noreturn
+
+// Arènes PvP
+//pvp_y_room	mapflag	noreturn
+//pvp_y_1-1	mapflag	noreturn
+//pvp_y_1-2	mapflag	noreturn
+//pvp_y_1-3	mapflag	noreturn
+//pvp_y_1-4	mapflag	noreturn
+//pvp_y_1-5	mapflag	noreturn
+//pvp_y_2-1	mapflag	noreturn
+//pvp_y_2-2	mapflag	noreturn
+//pvp_y_2-3	mapflag	noreturn
+//pvp_y_2-4	mapflag	noreturn
+//pvp_y_2-5	mapflag	noreturn
+//pvp_y_3-1	mapflag	noreturn
+//pvp_y_3-2	mapflag	noreturn
+//pvp_y_3-3	mapflag	noreturn
+//pvp_y_3-4	mapflag	noreturn
+//pvp_y_3-5	mapflag	noreturn
+//pvp_y_4-1	mapflag	noreturn
+//pvp_y_4-2	mapflag	noreturn
+//pvp_y_4-3	mapflag	noreturn
+//pvp_y_4-4	mapflag	noreturn
+//pvp_y_4-5	mapflag	noreturn
+//pvp_y_5-1	mapflag	noreturn
+//pvp_y_5-2	mapflag	noreturn
+//pvp_y_5-3	mapflag	noreturn
+//pvp_y_5-4	mapflag	noreturn
+//pvp_y_5-5	mapflag	noreturn
+//pvp_y_6-1	mapflag	noreturn
+//pvp_y_6-2	mapflag	noreturn
+//pvp_y_6-3	mapflag	noreturn
+//pvp_y_6-4	mapflag	noreturn
+//pvp_y_6-5	mapflag	noreturn
+//pvp_y_7-1	mapflag	noreturn
+//pvp_y_7-2	mapflag	noreturn
+//pvp_y_7-3	mapflag	noreturn
+//pvp_y_7-4	mapflag	noreturn
+//pvp_y_7-5	mapflag	noreturn
+//pvp_y_8-1	mapflag	noreturn
+//pvp_y_8-2	mapflag	noreturn
+//pvp_y_8-3	mapflag	noreturn
+//pvp_y_8-4	mapflag	noreturn
+//pvp_y_8-5	mapflag	noreturn
+//pvp_n_room	mapflag	noreturn
+//pvp_n_1-1	mapflag	noreturn
+//pvp_n_1-2	mapflag	noreturn
+//pvp_n_1-3	mapflag	noreturn
+//pvp_n_1-4	mapflag	noreturn
+//pvp_n_1-5	mapflag	noreturn
+//pvp_n_2-1	mapflag	noreturn
+//pvp_n_2-2	mapflag	noreturn
+//pvp_n_2-3	mapflag	noreturn
+//pvp_n_2-4	mapflag	noreturn
+//pvp_n_2-5	mapflag	noreturn
+//pvp_n_3-1	mapflag	noreturn
+//pvp_n_3-2	mapflag	noreturn
+//pvp_n_3-3	mapflag	noreturn
+//pvp_n_3-4	mapflag	noreturn
+//pvp_n_3-5	mapflag	noreturn
+//pvp_n_4-1	mapflag	noreturn
+//pvp_n_4-2	mapflag	noreturn
+//pvp_n_4-3	mapflag	noreturn
+//pvp_n_4-4	mapflag	noreturn
+//pvp_n_4-5	mapflag	noreturn
+//pvp_n_5-1	mapflag	noreturn
+//pvp_n_5-2	mapflag	noreturn
+//pvp_n_5-3	mapflag	noreturn
+//pvp_n_5-4	mapflag	noreturn
+//pvp_n_5-5	mapflag	noreturn
+//pvp_n_6-1	mapflag	noreturn
+//pvp_n_6-2	mapflag	noreturn
+//pvp_n_6-3	mapflag	noreturn
+//pvp_n_6-4	mapflag	noreturn
+//pvp_n_6-5	mapflag	noreturn
+//pvp_n_7-1	mapflag	noreturn
+//pvp_n_7-2	mapflag	noreturn
+//pvp_n_7-3	mapflag	noreturn
+//pvp_n_7-4	mapflag	noreturn
+//pvp_n_7-5	mapflag	noreturn
+//pvp_n_8-1	mapflag	noreturn
+//pvp_n_8-2	mapflag	noreturn
+//pvp_n_8-3	mapflag	noreturn
+//pvp_n_8-4	mapflag	noreturn
+//pvp_n_8-5	mapflag	noreturn
+//pvp_2vs2	mapflag	noreturn
+
+// Battle Grounds
+bat_c01	mapflag	noreturn
+bat_c02	mapflag	noreturn
+bat_c03	mapflag	noreturn
+bat_b01	mapflag	noreturn
+bat_b02	mapflag	noreturn
+bat_a01	mapflag	noreturn
+bat_a02	mapflag	noreturn

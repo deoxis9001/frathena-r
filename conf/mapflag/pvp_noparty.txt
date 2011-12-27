@@ -1,0 +1,13 @@
+//---------------------------------------------------------------
+// frAthena-R
+//---------------------------------------------------------------
+// No Party
+// Description :
+// - pvp_noparty: Empêche les Party de combattre sur les maps pvp
+//---------------------------------------------------------------
+
+guild_vs1	mapflag	pvp_noparty
+guild_vs2	mapflag	pvp_noparty
+guild_vs3	mapflag	pvp_noparty
+guild_vs4	mapflag	pvp_noparty
+guild_vs5	mapflag	pvp_noparty
