@@ -2,8 +2,16 @@
 frAthena R Changelog
 ===================
 
+2011/12/28 - Révision 5
+	* Upload du dossier battle
+
+2011/12/27 - Révision 4
+	* Upload du dossier mapflags
+	* Mise à jour des mapflags à l'épisode 14.2
+	* Traduction des descriptions des mapflags
+
 2011/12/27 - Révision 3
-	* Update char_athena.conf & char_athena.conf
+	* Update char_athena.conf & map_athena.conf
 
 2011/12/27 - Révision 2
 	* Suppression des dossiers Branches, Tags, Wiki, 
