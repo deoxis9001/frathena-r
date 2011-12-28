@@ -2,6 +2,12 @@
 frAthena R Changelog
 ===================
 
+2011/12/28 - Révision 11
+	* Upload du dossier log
+	* Upload du dossier plugins
+	* Upload du dossier readme
+	* Traduction items.conf et party.conf
+
 2011/12/28 - Révision 10
 	* Upload du dossier doc
 	* Traduction gm.conf guild.conf homunc.conf status.conf exp.conf drops.conf
