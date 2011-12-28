@@ -2,6 +2,10 @@
 frAthena R Changelog
 ===================
 
+2011/12/28 - Révision 10
+	* Upload du dossier doc
+	* Traduction gm.conf guild.conf homunc.conf status.conf exp.conf drops.conf
+
 2011/12/28 - Révision 5
 	* Upload du dossier battle
 
