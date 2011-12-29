@@ -2,6 +2,10 @@
 frAthena R Changelog
 ===================
 
+2011/12/29 - Révision 13
+	* Création des de la structure de l'émulateur pour accueillir les fichiers au fur et à mesure
+	* L'émulateur fonctionnera en SQL uniquement donc "src/char" = "src/char_sql" sur les autres versions eAthena
+
 2011/12/29 - Révision 12
 	* Traduction pet.conf
 	* Suppression penalité flee,hit,dommages renewal
