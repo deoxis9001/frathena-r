@@ -2,6 +2,10 @@
 frAthena R Changelog
 ===================
 
+2011/12/29 - Révision 12
+	* Traduction pet.conf
+	* Suppression penalité flee,hit,dommages renewal
+
 2011/12/28 - Révision 11
 	* Upload du dossier log
 	* Upload du dossier plugins
