@@ -1,2 +1,2 @@
-#define SVNVERSION 946M
+#define SVNVERSION 1
 
