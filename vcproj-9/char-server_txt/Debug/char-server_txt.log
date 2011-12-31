@@ -1,0 +1,13 @@
+﻿Build started 12/18/2011 10:01:00 PM.
+     1>Project "C:\Users\Gary\Desktop\Server%20%5bPure%5d\vcproj-9\char-server_txt.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "char-server_txt\Debug\char-server_txt.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdparty\msinttypes\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D __WIN32 /D _DEBUG /D TXT_ONLY /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D FD_SETSIZE=4096 /D DB_MANUAL_CAST_TO_UNION /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"char-server_txt\Debug\\" /Fd"char-server_txt\Debug\vc100.pdb" /Gd /TC /wd4800 /analyze- /errorReport:prompt ..\src\char\char.c ..\src\char\int_guild.c ..\src\char\int_homun.c ..\src\char\int_party.c ..\src\char\int_pet.c ..\src\char\int_status.c ..\src\char\int_storage.c ..\src\char\inter.c ..\src\common\core.c ..\src\common\db.c ..\src\common\ers.c ..\src\common\lock.c ..\src\common\malloc.c ..\src\common\mapindex.c ..\src\common\nullpo.c ..\src\common\plugins.c ..\src\common\showmsg.c ..\src\common\socket.c ..\src\common\strlib.c ..\src\common\timer.c ..\src\common\utils.c
+         utils.c
+     1>cl : Command line error D8038: invalid argument 'C:\Users\Gary\Desktop\Server%20%5bPure%5d\3rdparty\msinttypes\include'
+     1>Done Building Project "C:\Users\Gary\Desktop\Server%20%5bPure%5d\vcproj-9\char-server_txt.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.26

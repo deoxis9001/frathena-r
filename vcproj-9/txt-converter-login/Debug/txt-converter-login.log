@@ -1,0 +1,13 @@
+﻿Build started 12/18/2011 10:00:59 PM.
+     1>Project "C:\Users\Gary\Desktop\Server%20%5bPure%5d\vcproj-9\txt-converter-login.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "txt-converter-login\Debug\txt-converter-login.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdparty\mysql\include /I..\3rdparty\msinttypes\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D __WIN32 /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D FD_SETSIZE=4096 /D DB_MANUAL_CAST_TO_UNION /D MINICORE /D WITH_TXT /D WITH_SQL /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"txt-converter-login\Debug\\" /Fd"txt-converter-login\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\common\core.c ..\src\common\db.c ..\src\common\ers.c ..\src\common\lock.c ..\src\common\malloc.c ..\src\common\showmsg.c ..\src\common\sql.c ..\src\common\strlib.c ..\src\common\timer.c ..\src\common\utils.c ..\src\login\account_sql.c ..\src\login\account_txt.c "..\src\txt-converter\login-converter.c"
+         login-converter.c
+     1>cl : Command line error D8038: invalid argument 'C:\Users\Gary\Desktop\Server%20%5bPure%5d\3rdparty\mysql\include'
+     1>Done Building Project "C:\Users\Gary\Desktop\Server%20%5bPure%5d\vcproj-9\txt-converter-login.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.31

@@ -2,6 +2,18 @@
 frAthena R Changelog
 ===================
 
+2011/12/31 - Révision 22
+	* Upload projet .sln pour visual studio 2010
+	* Upload fichiers vcproj-9 pour visual studio 2010
+	* Ajout des dossier src/plugins et src/tool
+	* Suppression dossier /save
+
+2011/12/31 - Révision 21
+	* Upload du dossier login
+
+2011/12/30 - Révision 14
+	* Upload du dossier common
+
 2011/12/29 - Révision 13
 	* Création des de la structure de l'émulateur pour accueillir les fichiers au fur et à mesure
 	* L'émulateur fonctionnera en SQL uniquement donc "src/char" = "src/char_sql" sur les autres versions eAthena
