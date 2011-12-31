@@ -1,0 +1,13 @@
+﻿Build started 12/18/2011 10:00:59 PM.
+     1>Project "C:\Users\Gary\Desktop\Server%20%5bPure%5d\vcproj-9\txt-converter-char.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "txt-converter-char\Debug\txt-converter-char.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\3rdparty\mysql\include /I..\3rdparty\msinttypes\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D __WIN32 /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D FD_SETSIZE=4096 /D DB_MANUAL_CAST_TO_UNION /D MINICORE /D TXT_SQL_CONVERT /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"txt-converter-char\Debug\\" /Fd"txt-converter-char\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\char\char.c ..\src\char\int_guild.c ..\src\char\int_party.c ..\src\char\int_pet.c ..\src\char\int_storage.c ..\src\char\inter.c ..\src\common\core.c ..\src\common\ers.c ..\src\common\malloc.c ..\src\common\mapindex.c ..\src\common\showmsg.c ..\src\common\sql.c ..\src\common\strlib.c ..\src\common\timer.c ..\src\common\utils.c "..\src\txt-converter\char-converter.c"
+         char-converter.c
+     1>cl : Command line error D8038: invalid argument 'C:\Users\Gary\Desktop\Server%20%5bPure%5d\3rdparty\mysql\include'
+     1>Done Building Project "C:\Users\Gary\Desktop\Server%20%5bPure%5d\vcproj-9\txt-converter-char.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56
